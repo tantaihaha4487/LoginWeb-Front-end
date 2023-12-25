@@ -11,7 +11,7 @@ document
     };
 
     fetch(`${apiURI}/auth/signin`, {
-      method: 'POST',
+      method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
