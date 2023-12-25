@@ -1,5 +1,5 @@
 const config = {
-    API_URI: process.env.API_URI,
+    API_URI: 'https://login-web-express-restful-api.vercel.app/',
 }
 
 window.config = config;
