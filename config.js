@@ -1,5 +1,5 @@
 const config = {
-    API_URI: 'YOUR_API_URI_HERE',
+    API_URI: process.env.API_URI,
 }
 
 window.config = config;
