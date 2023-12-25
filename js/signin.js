@@ -10,7 +10,7 @@ document
       password: document.getElementById("password").value,
     };
 
-    fetch(`${apiURI}/auth/signin`, {
+    fetch(`${apiURI}/auth/login`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
